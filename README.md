@@ -3,7 +3,7 @@
 **This assignment has *multiple* steps, please *read* the steps *completely* and *thoroughly*. You may need to review, research, problem solve, and ask questions.**
 
 ## **Overview:**
-You are tasked with writing **pseudocode** for **3** new programs for different clients. Review each of the the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
+You are tasked with writing **pseudocode** for **3** new programs for different clients. Review each of the three tasks and prioritize them for yourself. Then complete each task and sync the files to Github for the team.
 
 ## **Objective:**
 Write **three (3)** pseudocode programs, and get them synced to GitHub so the team can access the files.
@@ -11,7 +11,7 @@ Write **three (3)** pseudocode programs, and get them synced to GitHub so the te
 - [ ] Review the following **3** client tasks. (Task A, Task B, Task C)
 - [ ] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your own GitHub account.
 - [ ] Clone the repository down to your local projects folder.
-- [ ] Complete each of the **3** tasks by updating the correct file that matches the task and client. (*example: **Task A** should be written in the the file **client-a.txt***)
+- [ ] Complete each of the **3** tasks by updating the correct file that matches the task and client. (*example: **Task A** should be written in the file **client-a.txt***)
 - [ ] Update and sync your local repository to GitHub.
 - [ ] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
 - [ ] Turn in the link to your repository of the assignment in [Google Classroom](https://classroom.google.com/).

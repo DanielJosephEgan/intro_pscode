@@ -1,4 +1,32 @@
 # Client Task A #
+****FULL DISCLOSURE - THIS IS FROM CHATGPT****
 # Add your pseudocode to this file below this line: #
+
 # ------------------------------------------------- #
+
+1. Generate a random number between 1 and 10 and store it as 'secret_number'.
+2. Set 'attempts' to 0.
+3. Set 'max_attempts' to 3.
+
+4. WHILE attempts < max_attempts:
+   a. Prompt the player to guess a number between 1 and 10.
+   b. Increment 'attempts' by 1.
+   
+   c. IF the guessed number is equal to 'secret_number':
+      i. Display "Congratulations! You guessed the correct number."
+      ii. BREAK the loop.
+      iii. Prompt user to play again
+   
+   d. ELSE IF guessed number is less than 'secret_number':
+      i. Display "Too low! Try again."
+   
+   e. ELSE IF guessed number is greater than 'secret_number':
+      i. Display "Too high! Try again."
+
+5. IF 'attempts' == max_attempts AND player did not guess correctly:
+   a. Display "Sorry, you've used all your attempts. The correct number was [secret_number]."
+
+6. Prompt user to play again.
+
+END
 

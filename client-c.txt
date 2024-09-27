@@ -1,4 +1,33 @@
 # Client Task C #
+
+****FULL DISCLOSURE - THIS IS FROM CHATGPT****
+
 # Add your pseudocode to this file below this line: #
+
+### Task C: Product Package Counter
+
+**Task:** You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+**Hint:** Loops
+
 # ------------------------------------------------- #
 
+START
+
+1. Initialize a variable 'package_count' to 2.
+
+2. WHILE package_count <= 50:
+   
+   a. Print 'package_count'
+   
+   b. Increment 'package_count' by 2.
+
+END
+
+Explanation:
+• Initialize package_count: Start counting from 2 because each scan represents 2 products.
+• Loop Condition: Continue the loop until package_count reaches or exceeds 50.
+• Print: In each iteration, print the current package_count.
+• Increment: After each print, increase package_count by 2 to simulate scanning the next set of 2 products.
+
+This pseudocode prints the numbers 2, 4, 6, ... up to 50, representing the count of packages scanned.

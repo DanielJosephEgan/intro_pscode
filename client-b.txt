@@ -1,4 +1,66 @@
 # Client Task B #
+
+****FULL DISCLOSURE - THIS IS FROM CHATGPT****
+
 # Add your pseudocode to this file below this line: #
+
+### Task B: Find the Spot
+
+**Task:** Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+**Hints:** Loops, Variables
+
 # ------------------------------------------------- #
 
+START
+
+1. Define the warehouse layout as a 2D grid (rows x columns).
+
+2. Set the customer's starting position:
+   Set start_position = (x_start, y_start)
+
+3. Define the target position (where the item is located):
+   Set target_position = (x_target, y_target)
+
+4. Initialize the customer's current position as the starting position:
+   Set current_position = start_position
+
+5. WHILE current_position is not equal to target_position:
+   
+   a. Display "Current position: (x_current, y_current)"
+   
+   b. Prompt the customer to input a direction: 'north', 'south', 'east', or 'west'
+   
+   c. Update the current position based on the customer's input:
+   
+      IF input is 'north' AND current_position_y > 0:
+         Move north (current_position_y = current_position_y - 1)
+      
+      ELSE IF input is 'south' AND current_position_y < max_rows - 1:
+         Move south (current_position_y = current_position_y + 1)
+      
+      ELSE IF input is 'east' AND current_position_x < max_columns - 1:
+         Move east (current_position_x = current_position_x + 1)
+      
+      ELSE IF input is 'west' AND current_position_x > 0:
+         Move west (current_position_x = current_position_x - 1)
+      
+      ELSE:
+         Display "Invalid move! Try again."
+
+6. END WHILE
+
+7. Once current_position == target_position:
+   Display "You have reached your destination!"
+
+END
+
+Key Points:
+• Warehouse as Grid: The store is a 2D grid where the customer can navigate.
+• Movement Directions: The customer can move north, south, east, or west within the grid, with boundary checks.
+• Loop Until Reaching Destination: The customer continues moving until they reach the target location.
+• Boundaries: Boundary checks ensure the customer doesn't move outside the grid.
+This simple version focuses on the core functionality of navigating to a target location based on user input.
+
+Brought to you by ChatGPT
+Dan Egan cut and pasted.
